@@ -1,4 +1,4 @@
-module.exports = class Wine {
+export default class Wine {
   constructor(
     fixed_acidity,
     volatile_acidity,

@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
 import { useState } from "react";
 import heatmap from "./images/heatmap.png";
 import Wine from "./class";
