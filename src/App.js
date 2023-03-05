@@ -45,7 +45,7 @@ function App() {
   };
 
   const downloadSrcCode=()=>{
-    const url = "http://localhost:3000/srccode.pdf";
+    const url = "https://64048cff64445f0008a6511a--relaxed-blini-6e14a3.netlify.app/srccode.pdf";
     const aTag = document.createElement("a");
     aTag.href = url;
     aTag.setAttribute("download","srccode.pdf")
