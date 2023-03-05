@@ -168,7 +168,7 @@ function App() {
       </div>
      <div>
      <div className="font-bold text-center mt-10 text-xl">Heat Map</div>
-     <img src={heatmap}/>
+     <img src={heatmap} alt="loading..."/>
      </div>
     </div>
   );
