@@ -57,7 +57,7 @@ function App() {
   return (
     <div className="flex flex-col w-full  h-full items-center justify-center font-mono">
       <div className="self-start p-2 font-bold text-red-600">Wine Quality Prediction</div>
-      <button className="bg-green-400 p-3 rounded-full " onClick={()=>downloadSrcCode()}><a href="">Download Source Code</a></button>
+      <button className="bg-green-400 p-3 rounded-full " onClick={()=>downloadSrcCode()}>Download Source Code</button>
       <div className="flex flex-col text-center mt-28 bg-slate-100 rounded-3xl p-10 space-y-3  ">
       {ans != null ? (
         <div className="text-4xl font-bold text-slate-600 mb-4">{ans}</div>
