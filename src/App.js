@@ -62,7 +62,7 @@ function App() {
    <div className="bg-slate-100">
      {loading ? (
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 ">
-          <img src={loadingImg} alt="loading image..." />
+          <img src={loadingImg} alt="loading..." />
         </div>
       ) : (
         <></>
