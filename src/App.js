@@ -67,7 +67,7 @@ function App() {
       ) : (
         <></>
       )}
-     <div className={`flex flex-col w-full  h-full items-center justify-center font-mono ${loading==true?"opacity-40":"opacity-100"} `}>
+     <div className={`flex flex-col w-full  h-full items-center justify-center font-mono ${loading===true?"opacity-40":"opacity-100"} `}>
     
       <div className={` p-2 text-3xl font-bold text-red-600`}>
         Wine Quality Prediction
